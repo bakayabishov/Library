@@ -15,6 +15,10 @@ namespace LibraryApp.DataAccess.Entities.Configurations
                 .WithMany(x => x.Books)
                 .HasForeignKey(x => x.AuthorId);
 
+            builder.HasOne(x => x.Partition)
+                .WithMany(x => x.Books)
+                .HasForeignKey(x => x.PartitionId);
+
             builder.Property(x => x.Id)
                 .HasColumnName("id");
 
@@ -25,6 +29,11 @@ namespace LibraryApp.DataAccess.Entities.Configurations
 
             builder.Property(x => x.Status)
                 .HasColumnName("status")
+                .IsRequired();
+
+            builder.Property(x => x.GivenDate)
+                .HasColumnName("given_date")
+                .HasColumnType(DateTime)
                 .IsRequired();
         }
     }

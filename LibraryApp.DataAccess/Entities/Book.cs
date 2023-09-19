@@ -12,8 +12,13 @@ public class Book : IEntityBase<int>
     public string Name { get; set; }
     public Author Author { get; set; }
     public int AuthorId { get; set; }
+    public Partition Partition { get; set; }
+    public int PartitionId {get; set; }
     public BookStatus Status { get; set; }
+
+    public DateTime GivenDate { get; set; }
     
+    public bool IsExpired { get; set; }
 
     public int GetId() {
         return Id;
