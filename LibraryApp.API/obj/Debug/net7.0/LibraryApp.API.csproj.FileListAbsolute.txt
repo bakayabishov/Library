@@ -1,0 +1,15 @@
+C:\Users\user\RiderProjects\Library\LibraryApp.API\bin\Debug\net7.0\LibraryApp.API.exe
+C:\Users\user\RiderProjects\Library\LibraryApp.API\bin\Debug\net7.0\LibraryApp.API.deps.json
+C:\Users\user\RiderProjects\Library\LibraryApp.API\bin\Debug\net7.0\LibraryApp.API.runtimeconfig.json
+C:\Users\user\RiderProjects\Library\LibraryApp.API\bin\Debug\net7.0\LibraryApp.API.dll
+C:\Users\user\RiderProjects\Library\LibraryApp.API\bin\Debug\net7.0\LibraryApp.API.pdb
+C:\Users\user\RiderProjects\Library\LibraryApp.API\obj\Debug\net7.0\LibraryApp.API.csproj.AssemblyReference.cache
+C:\Users\user\RiderProjects\Library\LibraryApp.API\obj\Debug\net7.0\LibraryApp.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\RiderProjects\Library\LibraryApp.API\obj\Debug\net7.0\LibraryApp.API.AssemblyInfoInputs.cache
+C:\Users\user\RiderProjects\Library\LibraryApp.API\obj\Debug\net7.0\LibraryApp.API.AssemblyInfo.cs
+C:\Users\user\RiderProjects\Library\LibraryApp.API\obj\Debug\net7.0\LibraryApp.API.csproj.CoreCompileInputs.cache
+C:\Users\user\RiderProjects\Library\LibraryApp.API\obj\Debug\net7.0\LibraryApp.API.dll
+C:\Users\user\RiderProjects\Library\LibraryApp.API\obj\Debug\net7.0\refint\LibraryApp.API.dll
+C:\Users\user\RiderProjects\Library\LibraryApp.API\obj\Debug\net7.0\LibraryApp.API.pdb
+C:\Users\user\RiderProjects\Library\LibraryApp.API\obj\Debug\net7.0\LibraryApp.API.genruntimeconfig.cache
+C:\Users\user\RiderProjects\Library\LibraryApp.API\obj\Debug\net7.0\ref\LibraryApp.API.dll
