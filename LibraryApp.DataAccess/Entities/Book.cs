@@ -12,6 +12,8 @@ public class Book : IEntityBase<int>
     public string Name { get; set; }
     public Author Author { get; set; }
     public int AuthorId { get; set; }
+    public User User { get; set; }
+    public int UserId { get; set; }
     public Partition Partition { get; set; }
     public int PartitionId {get; set; }
     public BookStatus Status { get; set; }

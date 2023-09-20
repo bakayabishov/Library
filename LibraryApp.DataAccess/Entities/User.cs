@@ -13,7 +13,7 @@ public class User : IEntityBase<int>
     public string Password { get; set; }
     public Role Role { get; set; }
     public bool IsManager { get; set; }
-    public ICollection<int> GivenBooks { get; set; }
+    public ICollection<Book> GivenBooks { get; set; }
 
     public int GetId() {
         return Id;

@@ -14,6 +14,10 @@ public class BookConfiguration : IEntityTypeConfiguration<Book>
             .WithMany(x => x.Books)
             .HasForeignKey(x => x.AuthorId);
 
+        builder.HasOne(x => x.User)
+            .WithMany(x => x.GivenBooks)
+            .HasForeignKey(x => x.UserId);
+
         builder.HasOne(x => x.Partition)
             .WithMany(x => x.Books)
             .HasForeignKey(x => x.PartitionId);
@@ -28,7 +32,6 @@ public class BookConfiguration : IEntityTypeConfiguration<Book>
 
         builder.Property(x => x.Status)
             .HasColumnName("status")
-            .HasDefaultValue(0)
             .IsRequired();
             
         builder.Property(x => x.IsExpired)

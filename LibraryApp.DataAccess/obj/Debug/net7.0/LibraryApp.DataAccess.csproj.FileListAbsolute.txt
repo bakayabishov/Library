@@ -1,5 +1,14 @@
+C:\Users\user\RiderProjects\Library\LibraryApp.DataAccess\bin\Debug\net7.0\LibraryApp.DataAccess.deps.json
+C:\Users\user\RiderProjects\Library\LibraryApp.DataAccess\bin\Debug\net7.0\LibraryApp.DataAccess.runtimeconfig.json
+C:\Users\user\RiderProjects\Library\LibraryApp.DataAccess\bin\Debug\net7.0\LibraryApp.DataAccess.dll
+C:\Users\user\RiderProjects\Library\LibraryApp.DataAccess\bin\Debug\net7.0\LibraryApp.DataAccess.pdb
 C:\Users\user\RiderProjects\Library\LibraryApp.DataAccess\obj\Debug\net7.0\LibraryApp.DataAccess.csproj.AssemblyReference.cache
 C:\Users\user\RiderProjects\Library\LibraryApp.DataAccess\obj\Debug\net7.0\LibraryApp.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\user\RiderProjects\Library\LibraryApp.DataAccess\obj\Debug\net7.0\LibraryApp.DataAccess.AssemblyInfoInputs.cache
 C:\Users\user\RiderProjects\Library\LibraryApp.DataAccess\obj\Debug\net7.0\LibraryApp.DataAccess.AssemblyInfo.cs
 C:\Users\user\RiderProjects\Library\LibraryApp.DataAccess\obj\Debug\net7.0\LibraryApp.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\user\RiderProjects\Library\LibraryApp.DataAccess\obj\Debug\net7.0\LibraryApp.DataAccess.dll
+C:\Users\user\RiderProjects\Library\LibraryApp.DataAccess\obj\Debug\net7.0\refint\LibraryApp.DataAccess.dll
+C:\Users\user\RiderProjects\Library\LibraryApp.DataAccess\obj\Debug\net7.0\LibraryApp.DataAccess.pdb
+C:\Users\user\RiderProjects\Library\LibraryApp.DataAccess\obj\Debug\net7.0\LibraryApp.DataAccess.genruntimeconfig.cache
+C:\Users\user\RiderProjects\Library\LibraryApp.DataAccess\obj\Debug\net7.0\ref\LibraryApp.DataAccess.dll
