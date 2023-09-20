@@ -43,5 +43,10 @@ public class BookConfiguration : IEntityTypeConfiguration<Book>
             .HasColumnName("given_date")
             .HasDefaultValue(DateTime.Now)
             .IsRequired();
+
+        builder.Property(x => x.UserId)
+            .HasColumnName("user_id")
+            .HasDefaultValue(1)
+            .IsRequired();
     }
 }
