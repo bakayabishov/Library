@@ -15,10 +15,8 @@ public class Book : IEntityBase<int>
     public Partition Partition { get; set; }
     public int PartitionId {get; set; }
     public BookStatus Status { get; set; }
-
     public DateTime GivenDate { get; set; }
-    
-    public bool IsExpired { get; set; }
+   public bool IsExpired { get; set; }
 
     public int GetId() {
         return Id;
