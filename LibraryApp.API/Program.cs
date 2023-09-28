@@ -1,6 +1,11 @@
 ﻿global using LibraryApp.DataAccess;
 global using Microsoft.EntityFrameworkCore;
 using System.Text;
+using LibraryApp.Business.Interfaces;
+using LibraryApp.Business.Services;
+using LibraryApp.Business.UnitOfWork;
+using LibraryApp.DataAccess.Repositories;
+using LibraryApp.DataAccess.Repositories.Interfaces;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -13,16 +18,17 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
-/*
 builder.Services.AddControllers();
-builder.Services.AddScoped<IUsersServices, UsersServices>();
-builder.Services.AddScoped<IUsersRepository, UsersRepository>();
-builder.Services.AddScoped<IProductsService, ProductsServices>();
-builder.Services.AddScoped<IProductsRepository, ProductsRepository>();
-builder.Services.AddScoped<IShopsServices, ShopsServices>();
-builder.Services.AddScoped<IShopRepository, ShopRepository>();
+builder.Services.AddScoped<IBookServices, BookServices>();
+builder.Services.AddScoped<IBookRepository, BookRepository>();
+builder.Services.AddScoped<IUserServices, UserServices>();
+builder.Services.AddScoped<IUserRepository, UserRepository>();
+builder.Services.AddScoped<IAuthorServices, AuthorServices>();
+builder.Services.AddScoped<IAuthorRepository, IAuthorRepository>();
+builder.Services.AddScoped<IPartitionServices, PartitionServices>();
+builder.Services.AddScoped<IPartitionRepository, IPartitionRepository>();
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
-builder.Services.AddValidators();*/
+
 builder.Services.AddDbContext<DataContext>(options =>
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));

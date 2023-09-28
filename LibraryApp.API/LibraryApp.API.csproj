@@ -7,10 +7,6 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
-    <ItemGroup>
-      <Folder Include="Controllers\" />
-    </ItemGroup>
-
 
     <ItemGroup>
         <PackageReference Include="AutoMapper" Version="12.0.1" />
@@ -45,6 +41,7 @@
     </ItemGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\LibraryApp.Business\LibraryApp.Business.csproj" />
       <ProjectReference Include="..\LibraryApp.DataAccess\LibraryApp.DataAccess.csproj" />
     </ItemGroup>
 

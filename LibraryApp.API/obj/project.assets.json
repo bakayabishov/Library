@@ -3938,6 +3938,20 @@
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
       },
+      "LibraryApp.Business/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "AutoMapper": "12.0.1",
+          "LibraryApp.DataAccess": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/LibraryApp.Business.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LibraryApp.Business.dll": {}
+        }
+      },
       "LibraryApp.DataAccess/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
@@ -10910,6 +10924,11 @@
         "system.xml.xpath.xdocument.nuspec"
       ]
     },
+    "LibraryApp.Business/1.0.0": {
+      "type": "project",
+      "path": "../LibraryApp.Business/LibraryApp.Business.csproj",
+      "msbuildProject": "../LibraryApp.Business/LibraryApp.Business.csproj"
+    },
     "LibraryApp.DataAccess/1.0.0": {
       "type": "project",
       "path": "../LibraryApp.DataAccess/LibraryApp.DataAccess.csproj",
@@ -10922,6 +10941,7 @@
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 12.0.1",
       "BCrypt.Net-Next >= 4.0.3",
       "Dapper >= 2.0.123",
+      "LibraryApp.Business >= 1.0.0",
       "LibraryApp.DataAccess >= 1.0.0",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 7.0.5",
       "Microsoft.AspNetCore.Authorization >= 7.0.11",
@@ -10968,6 +10988,9 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
+            "C:\\Users\\user\\RiderProjects\\Library\\LibraryApp.Business\\LibraryApp.Business.csproj": {
+              "projectPath": "C:\\Users\\user\\RiderProjects\\Library\\LibraryApp.Business\\LibraryApp.Business.csproj"
+            },
             "C:\\Users\\user\\RiderProjects\\Library\\LibraryApp.DataAccess\\LibraryApp.DataAccess.csproj": {
               "projectPath": "C:\\Users\\user\\RiderProjects\\Library\\LibraryApp.DataAccess\\LibraryApp.DataAccess.csproj"
             }
